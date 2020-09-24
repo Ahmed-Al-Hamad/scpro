@@ -1,0 +1,21 @@
+.container{
+    background-color: rgb(0,0,0,0.5);
+    display: grid;
+    grid-template-columns:5fr 1fr ;
+   }
+   .container-show {
+     
+       display: flex;
+       justify-content: flex-end;  
+   }
+   .container-list{
+       
+       display: flex;
+       flex-direction: column;
+      
+   }
+   .div-nav{
+     height:200px;
+     background-color: black;
+     border:1px solid black;
+   }
